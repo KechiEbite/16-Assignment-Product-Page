@@ -52,6 +52,15 @@ img {
 .tab-content img {
     width: 100%;
     -webkit-animation-name: opacity;
+    animation-name: opacity;
+    -webkit-animation-duration: .4s;
+    animation-duration: .4s;
+}
+
+.card {
+    margin-top: 50px;
+    background: yellowgreen;
+
 }
    
   
