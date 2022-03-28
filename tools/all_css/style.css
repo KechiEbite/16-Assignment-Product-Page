@@ -58,12 +58,54 @@ img {
 }
 
 .card {
-    margin-top: 50px;
-    background: yellowgreen;
-
+    margin-top: 70px;
+    background: #ff9f1a;
+    padding: 3em;
+    line-height: 1.5em;
 }
-   
-  
+
+.product-title, .price, .sizes, .colors {
+    text-transform: UPPERCASE;
+    font-weight: bold; 
+}
+
+.checked, .price span {
+    color: #ff9f1a; 
+}
+
+span {
+    font-size: 16px;
+}
+.color {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    height: 2em;
+    width: 2em;
+    border-radius: 2px; 
+}
+.color:first-of-type {
+      margin-left: 20px; 
+}
+
+h6 {
+    color: #ff9f1a;
+}
+
+.add-to-cart {
+    background: #ff9f1a;
+    padding: 1.2em 1.5em;
+    border: none;
+    text-transform: UPPERCASE;
+    font-weight: bold;
+    color: #fff;
+    -webkit-transition: background .3s ease;
+            transition: background .3s ease; 
+}
+.add-to-cart:hover, .like:hover {
+      background: #f87000;
+      color: #fff; 
+}
 
   
   
